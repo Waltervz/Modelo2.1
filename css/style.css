@@ -7,10 +7,12 @@ body{
 }
 /* menu */
 
+
+
 #menu li > a {
     font-size: 18px;
     font-weight: bold;
-    color: #3f3f3f;
+    color: #bdb7b7;
 
 }
 
@@ -149,11 +151,20 @@ footer p{
 /*MQ pantalla extra-sm*/
 
 @media(max-width: 576px) {
+
+      
+   
+    
     .icono-wrap{
         flex-wrap: wrap;
         justify-content: center !important;
     }
 
+    .wrapper{
+           width: 90%;
+    margin-left: 2px;
+    margin-bottom: 4px;
+    }
  }
 
 
